@@ -5,7 +5,7 @@
 - vscode
 
 ### i-2. 아나콘다 세팅
--*실행하면 (base) 가상환경 자동 접속 됨
+-실행하면 (base) 가상환경 자동 접속 됨
 -conda env list                       (가상환경 목록 확인)
 -conda create -n developer python=3.11(가상환경 생성)
 -conda activate developer             (가상환경 접속)
@@ -31,6 +31,6 @@
 - [ctrl] + [,] : Settings 켜기
 
 
-?1. 기본 터미널 세팅
+1. 기본 터미널 세팅
 2. 터미널 폰트 사이즈 수정
 3. python run 단축키 설정
