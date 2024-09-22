@@ -50,8 +50,21 @@ print("python" in intro) # 대소문자 구별(정확히)
 print(intro.find("H"))
 print(intro.find("Python"))
 
-
-
+#문제1
+email=input("이메일 : ")
+k=len(email)
+for i in range(k):
+    if email[i] == '@' :
+        print(email[0:i])
+        break
+#문제2
+web=input("웹 : ")
+j=len(web)
+for i in range(j):
+    if web[i]=='.':
+        for k in range(i+1, j):
+            if web[k]=='.':
+                print(web[i+1:k])
 
 
 
