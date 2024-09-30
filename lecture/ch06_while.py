@@ -15,4 +15,7 @@
 #숙제 : for 문으로 작성한 구구단 2단 코드를 while문으로 변경하세요.
 # for i in range(1, 10):
 #    print(f"2x{i}={2*i}")
-   
+i=1
+while i<10:
+    print(f"2 x {i} = {2*i}")
+    i+=1
