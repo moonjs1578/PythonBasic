@@ -78,13 +78,10 @@ while True:
         print_sub_menu(desert_menu, desert_price,3)
         sub_order=input_menu_num(3)
         order_list.append([desert_menu[sub_order], desert_price[sub_order]])
-
-    # 추가 주문할거냐?
-    # input() y/n : yes or no
-    # y : 추가주문
-    # n : 결제하는 곳으로 가기!(x)
     ans=input("추가주문하시겠습니까?")
-    if (y=)
-    # 사용자가 주문한 메뉴 출력
+    if(ans=='yes'):
+        pass
+    elif(ans=='no'):
+        break
     for item in order_list:
         print(item)

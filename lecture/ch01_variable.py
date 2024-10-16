@@ -32,16 +32,16 @@ print("Hello \tPython")
 a=3
 b=3.14
 c="5"
-d="5.15"
+d="6.15"
 print(float(a))
 print(str(a))
 print(str(b))
 print(int(b))
 print(int(c))
 print(float(c))
-print(int(d))
+#print(int(d))  # str(실수) -> 정수  EROOR 발생!
 print(float(d))
-print(int(d))   # str(실수) -> 정수  EROOR 발생!
+#print(int(d))   # str(실수) -> 정수  EROOR 발생!
 
 # 4. None Tyoe
 # - 사용 금지!

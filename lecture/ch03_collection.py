@@ -6,7 +6,6 @@
 #          그럼에도 불구하고 100칸을 모두 유지!(고정)
 # 컬렉션 프레임워크
 # - LIST, DICTONARY(DICT), SET, TUPTLE, 
-
 # - 순서가 있는 자료형(인덱스) : LIST, TUPLE   ex)기차
 # - 순서가 없는 자료형 : DICT, SET            ex) 가방
 
@@ -26,7 +25,6 @@ list_c = [1, 0.1, "chosun", True]
 list_d = ["A", "B", "C"] #Packing
 a, b, c = list_d #Unpacking
 # a, b, c=["A", "B", "C"] 
-
 #   가. append() : 맨 마지막에 값을 추가
 a=[1, 2, 3]
 a.append(4)
