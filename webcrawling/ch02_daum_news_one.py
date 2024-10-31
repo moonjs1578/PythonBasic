@@ -42,6 +42,29 @@ for text in contents:
     content += (text.get_text())
 print(f"뉴스본문 : {content}")
 
+#기자 : 
+
+writer=doc.select("span.txt_info")[0].get_text()
+print(f"기자 : {writer}")
+
+#날짜 : 
+reg_date=doc.select("span.num_date")[0].get_text()
+#방법1 split구분자
+#split_list=reg_date.split(". ") #['2024', '10', '28', '14:42']
+#reg_date=split_list[0]+split_list[1]+split_list[2]
+print(reg_date) #20241028
+
+#방법2 strip():좌우여백제거
+split_list=reg_date.split(".") # ['2024', ' 10', ' 28', ' 14:42']
+#reg_date=split_list[0].strip()+split_list[1].strip()+split_list[2].strip()
+
+# lamda식 : map(), reduce(), filter()
+# → map() : 리스트의 모든 값에 내가 원하는 함수르 적용
+# → reduce(): 덧셈, 곱셈 등오르 값을 줄임
+# → filter() : 조건에 맞는 값만 추출
+split_date=list(map(lambda x : x.strip(), split_list))
+reg_date=split_date[0]+split_date[1]+split_date[2]
+print(reg_date)
 # contents → [<p>본1</p>, <p>본2</p>, <p>본3</p>]
 # text → <p>본1</p>
 # test.get_text() → 본1
