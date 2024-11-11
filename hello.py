@@ -1,2 +1,1 @@
-c="5"
-print(int(c))
+print('hello world')
