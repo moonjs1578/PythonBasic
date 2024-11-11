@@ -30,7 +30,20 @@
 - [ctrl] + ['] : 터미널 켜기
 - [ctrl] + [,] : Settings 켜기
 
+### 2-5. 프로그래밍언어 - DB 연결
+ 1. SQL Mapping : SQL을 작성 → 실행 (과거))
+ 2. ORM(Object Relation Mapping) (최신))
+ - SQL 복잡도 증가! → ORM 한계
 
+### 2-6. SQL 매핑
+ 1. Connection 맺기(Python - Database)
+    - IP, PORT, ID, PW
+ 2. 일꾼 만들기(cursor 객체)
+ 3. JOB 만들기(SQL 작성)
+ 4. 실행(일꾼-JOB)
+ 5. 결과 
+ 
+ ## 3. 도커(컨테이너))
 1. 기본 터미널 세팅
 2. 터미널 폰트 사이즈 수정
 3. python run 단축키 설정
